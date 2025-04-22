@@ -4,6 +4,7 @@ from pages.main_page import MainPage
 from pages.profile_page import ProfilePage
 
 
+@allure.feature("Личный кабинет")
 class TestProfile:
 
     @allure.description("Переход из главной страницы в профиль авторизованного пользователя")

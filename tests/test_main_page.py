@@ -3,6 +3,7 @@ from pages.feed_page import FeedPage
 from pages.main_page import MainPage
 
 
+@allure.feature("Главная страница и конструктор")
 class TestMainPage:
 
     @allure.description("Переход в раздел 'Конструктор' и проверка его отображения")

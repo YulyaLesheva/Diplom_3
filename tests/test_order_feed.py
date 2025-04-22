@@ -2,6 +2,7 @@ import allure
 from pages.feed_page import FeedPage
 
 
+@allure.feature("Лента заказов")
 class TestOrderFeed:
 
     @allure.description("Открытие деталей заказа из ленты заказов")

@@ -4,6 +4,7 @@ from pages.forgot_password_page import ForgotPasswordPage
 from pages.reset_password_page import ResetPasswordPage
 
 
+@allure.feature("Восстановление пароля")
 class TestPasswordReset:
 
     @allure.description("Переход со страницы логина на страницу восстановления пароля")
